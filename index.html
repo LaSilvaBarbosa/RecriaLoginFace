@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Facebook</title>
+        <!--Aplicar depois meta tags-->
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="center">
+                <div class="logo">
+                    <img src="images/facebook-logo-1.png" alt="Facebook">
+                </div>
+               <form action="post" class="form-login">
+
+                        <div class="form-element">
+                            <p class="form-text">E-mail ou telefone:</p>
+                            <input type="email" >
+                        </div>
+                        <div class="form-element">
+                            <p class="form-text">Senha:</p>
+                            <input type="password" >
+                        </div>
+                        
+                        <input id="btn_enviar" type="submit" name="enviar" value="Enviar">
+
+               </form>
+               <!-- DIV CLEAR limpa o float-->
+               <div class="clear"></div>
+            </div><!--DIV CENTER-->
+        </header>
+        
+         <section class="main">
+             <div class="center">
+                 
+                 <div class="img_pessoas">
+                    <h2>Logins recentes</h2>
+                    <h3>Clique na sua foto ou adicione uma conta</h3>
+                    <!--Colocar depois os link, fazer efeitos com o hover-->
+                     <div class="pessoa"> 
+                        <img src="images/login_1.jpg" alt="Larissa">
+                        <p>Larissa</p>
+                    </div>
+                     <div class="pessoa">
+                         <img src="images/login_2.jpg" alt="Valdemir">
+                        <p>Valdemir</p>    
+                    </div>
+                     <div class="pessoa">
+                         <img src="images/login_3.jpg" alt="Livia">
+                        <p>Livia</p>
+                    </div>
+                     <div class="pessoa">
+                         <p>Acidionar conta</p>
+                     </div>
+                </div>
+
+                <div class="abrir_conta">
+                       <h2>Abra uma conta</h2>
+                       <h3>É gratuito e sempre será</h3> 
+                
+                    <form action="#" class="criar_conta">
+                        <div class="w50">
+                            <input type="text" placeholder="Nome">
+                        </div><!--w50-->
+                        <div class="w50">
+                            <input type="text" placeholder="Sobrenome">
+                        </div><!--w50-->
+                        <div class="w100">
+                            <input type="email" placeholder="E-mai l">
+                        </div><!--w100-->
+                        <div class="w100">
+                            <input type="password" placeholder="Senha">
+                        </div><!--w100-->
+
+                        <div class="w100">
+                            <!--Depois eu altero para um select, fazer botao select dia, mês e ano-->
+                            <h4>Data de nascimento</h4>
+                            <select class="nascimento" name="nascimento_dia" id="day">
+                                <option value="1">10</option>
+                            </select>
+                            <select class="nascimento" name="nascimento_mes" id="mes">
+                                <option value="1">Março</option>
+                            </select>
+                            <select class="nascimento" name="nascimento_ano" id="ano">
+                                <option value="1">2020</option>
+                            </select>
+                            <div class="clear"></div>
+                        </div>
+
+                        <div >
+                            <h4>Gênero</h4>
+                            <input type="radio" id="fem" name="genero" value="Feminino">Feminino
+                            <input type="radio" id="masc" name="genero" value="Masculino">Masculino
+                            <input type="radio" id="outros" name="genero" value="Personalizado">Personalizado
+                        </div><!--W30-->
+
+
+                        <div class="w100">
+                            <input type="submit" id="btn_cadastra" value="Cadastre-se" name="cadastro">
+                        </div><!--w100-->  
+
+                    </form><!--criar conta-->
+                    
+                </div><!--abrir conta-->
+
+
+
+                <!-- DIV CLEAR limpa o float-->
+              <div class="clear"></div>
+             </div><!--center-->
+              
+         </section>
+    </body>
+</html>
