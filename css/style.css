@@ -170,5 +170,51 @@ form .w100 h4{
 }
  form select.nascimento{
      float: left;
-     margin-top:5 px;
+     margin-top: 5px;
  }
+
+ .input-radio{
+    margin:8px 5px;
+    float: left;
+    width: 30%;
+ }
+ .input-radio h5{
+    display: inline-block;
+    font-weight: lighter;
+    float: rigth;
+ }
+
+#masc, #fem, #outros{
+    width: auto !important;
+}
+
+.rodape{
+    padding: 30px -0;
+    background: white;
+    margin: 0px auto;
+}
+section.rodape a{
+    font-size: 12px;
+    color:#365899;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+section.rodape a.select-lingua{
+    color:#737373
+}
+
+section .rodape .center{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+section .rodape .configuracao{
+    border: 0;
+    padding-top: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+}
